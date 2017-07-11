@@ -10,7 +10,7 @@ if num==bingo:  #條件1
         print('帥哥，你猜對了，真棒!')
     else:
         print('美女，妳猜對了，了不起')
-elif (num <= bingo) & (num>=nmin):  #條件2
+elif (num < bingo) & (num>=nmin):  #條件2
     diff=abs(num-bingo)
     if diff<3:
         print('你猜的數字比較小，已經接近了')

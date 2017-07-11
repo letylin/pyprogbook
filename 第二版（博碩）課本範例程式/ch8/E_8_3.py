@@ -15,6 +15,3 @@ class CallM(object):
 CallM.cls_method('hello')
 CallM.stc_method('hello')
 CallM.nor_method(CallM)        
-classtest = classmethod(CallM.nor_method)
-CallM.classtest('hi')
-#print(classmethod(CallM.nor_method))

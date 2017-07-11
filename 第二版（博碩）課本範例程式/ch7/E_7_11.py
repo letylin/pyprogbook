@@ -3,8 +3,8 @@ from openpyxl import load_workbook
 import statistics as st
 wb = load_workbook('./file/oil_statistics.xlsx') 
 ws1 = wb.active 
-rows=ws1.get_highest_row()
-cols=ws1.get_highest_column()
+rows=ws1.max_row
+cols=ws1.max_column
 print('資料總列數 = ',rows)
 print('資料總行數 = ',cols)
 ws2 = wb.create_sheet()

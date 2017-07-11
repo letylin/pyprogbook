@@ -9,7 +9,7 @@ elif score<80:  #條件3
     grade='丙等'    
 elif score<90:  #條件4
     grade='乙等'
-elif score<100:  #條件5
+elif score<=100:  #條件5
     grade='甲等'
 else:    #條件6
     grade='輸入錯誤'
