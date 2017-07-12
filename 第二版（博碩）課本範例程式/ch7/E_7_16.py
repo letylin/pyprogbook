@@ -1,6 +1,6 @@
 #E_7_16: 上網路抓取多家股價資料
 import pandas as pd
-import pandas.io.data as web
+import pandas_datareader.data as web
 import datetime
 import time
 starttime = time.clock()

@@ -1,6 +1,6 @@
 #E_7_15: 上網路抓取股價資料
 import pandas as pd
-import pandas.io.data as web
+import pandas_datareader.data as web
 import datetime
 #下載資料起始日與股票代號
 start = datetime.datetime(2016,4,17)
